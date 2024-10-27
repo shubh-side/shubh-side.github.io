@@ -213,7 +213,7 @@ const workExperiences = {
       role: "Computer Science Q&A Expert",
       company: "Chegg",
       companylogo: require("./assets/images/chegg.png"),
-      date: "June 2019 – July 2019",
+      date: "Jan 2020 – Dec 2020",
       descBullets: [
         "Solved over 500 Computer science questions on the platform having variations in Java, Python, C++, C, DBMS, OOP, OS, ML to help students worldwide resolve their doubts following quality parameters defined by Chegg while maintaining academic integrity"
       ]
