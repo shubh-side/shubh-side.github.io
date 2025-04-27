@@ -166,13 +166,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Dev Engineer II",
+      role: "Software Development Engineer II",
       company: "Yahoo",
       companylogo: require("./assets/images/yahoo.png"),
       date: "October 2024 - Present",
       descBullets: [
-        "Working on Governance, Risk and Compliance",
-        "Collaborated with cross-functional teams to understand business requirements and translated them into technical solutions",
+        "Designed and developed key features for the Unified Dashboard using React, Event-Driven Architecture, RESTful APIs, cron jobs, and service-to-service communication, that streamlined application access requests, automated Athenz domain auditing, and enhanced quarterly access reviews for AdTech applications.",
+        "Architected and led the successful migration of the Unified Dashboard application from on-premises to AWS, implementing containerized microservices with Kubernetes clusters, CI/CD pipelines, and infrastructure-as-code practices.",
+        "Implemented comprehensive monitoring and alerting infrastructure using CloudWatch, Prometheus, Grafana and OpsGenie with custom dashboards and proactive notification protocols, resulting in 99.9% uptime for critical compliance applications and improved incident response times by 35%."
       ]
     },
     {
