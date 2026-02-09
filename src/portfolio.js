@@ -23,7 +23,7 @@ const greeting = {
   username: "Shubham Chaudhary",
   title: "Hi all, I'm Shubham",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java/ Python/ .NET / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with Java / Python / .NET / JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1t4gMpDdLDKP-c0UsHGYZGvjUPcySKj_z/view?usp=sharing", // Set to empty to hide the button
@@ -171,9 +171,9 @@ const workExperiences = {
       companylogo: require("./assets/images/yahoo.png"),
       date: "October 2024 - Present",
       descBullets: [
-        "Designed and developed key features for the Unified Dashboard using React, Event-Driven Architecture, RESTful APIs, cron jobs, and service-to-service communication, that streamlined application access requests, automated Athenz domain auditing, and enhanced quarterly access reviews for AdTech applications.",
-        "Architected and led the successful migration of the Unified Dashboard application from on-premises to AWS, implementing containerized microservices with Kubernetes clusters, CI/CD pipelines, and infrastructure-as-code practices.",
-        "Implemented comprehensive monitoring and alerting infrastructure using CloudWatch, Prometheus, Grafana and OpsGenie with custom dashboards and proactive notification protocols, resulting in 99.9% uptime for critical compliance applications and improved incident response times by 35%."
+        "Designed and developed the Unified Dashboard (React, Node.js, Event-Driven Architecture) with automated compliance workflows, real-time audit capabilities, and integrated monitoring stack (CloudWatch, Prometheus, Grafana, OpsGenie) — reduced compliance incidents by 60% and achieved 99.9% uptime.",
+        "Architected and led the migration of enterprise applications from on-premises to AWS, implementing containerized microservices with Kubernetes, CI/CD pipelines, and Infrastructure-as-Code practices — improved system reliability by 40% and cut operational costs by 25%.",
+        "Built the Access Management Framework (AMF) enabling centralized role-based access control across 20000+ applications, integrating with Athenz, OAuth 2.0, and LDAP — reduced manual provisioning time by 70%, streamlined access requests for 1,500+ managers, and strengthened SOX compliance controls."
       ]
     },
     {
