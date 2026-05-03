@@ -171,9 +171,9 @@ const workExperiences = {
       companylogo: require("./assets/images/yahoo.png"),
       date: "October 2024 - Present",
       descBullets: [
-        "Designed and developed the Unified Dashboard (React, Node.js, Event-Driven Architecture) with automated compliance workflows, real-time audit capabilities, and integrated monitoring stack (CloudWatch, Prometheus, Grafana, OpsGenie) — reduced compliance incidents by 60% and achieved 99.9% uptime.",
-        "Architected and led the migration of enterprise applications from on-premises to AWS, implementing containerized microservices with Kubernetes, CI/CD pipelines, and Infrastructure-as-Code practices — improved system reliability by 40% and cut operational costs by 25%.",
-        "Built the Access Management Framework (AMF) enabling centralized role-based access control across 20000+ applications, integrating with Athenz, OAuth 2.0, and LDAP — reduced manual provisioning time by 70%, streamlined access requests for 1,500+ managers, and strengthened SOX compliance controls."
+        "Optimized YMAP GraphQL proxy (NestJS + Apollo) routing calendar and task operations across Yahoo Mail clients; replaced bulk calendar fetch with per-calendar queries, reducing API traffic by ~10x; implemented auth error handling, consent flows, and Splunk dashboards for latency, error rate, and regression monitoring.",
+        "Designed and implemented Contacts Platform backend APIs for Yahoo Mail's compose autocomplete and address book at scale; built CRUD APIs with rate limiting, pagination, and caching for high-read workloads; enforced authorization checks, PII-safe logging, and maintained on-call SLO ownership across contacts service endpoints.",
+        "Contributed to Mail Intelligence extraction pipeline (MTA → Jedi → CAAS → MEP → CMS) for Yahoo Planner; integrated ML classification (CAAS/Camino) with Lucy4j and Rule Service to extract structured event/task cards; owned deco lifecycle management, enforced CCPA/GAC compliance, reducing extraction error rate by 30% across million+ daily emails."
       ]
     },
     {
