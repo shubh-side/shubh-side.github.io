@@ -171,9 +171,8 @@ const workExperiences = {
       companylogo: require("./assets/images/yahoo.png"),
       date: "October 2024 - Present",
       descBullets: [
-        "Optimized YMAP GraphQL proxy (NestJS + Apollo) routing calendar and task operations across Yahoo Mail clients; replaced bulk calendar fetch with per-calendar queries, reducing API traffic by ~10x; implemented auth error handling, consent flows, and Splunk dashboards for latency, error rate, and regression monitoring.",
-        "Designed and implemented Contacts Platform backend APIs for Yahoo Mail's compose autocomplete and address book at scale; built CRUD APIs with rate limiting, pagination, and caching for high-read workloads; enforced authorization checks, PII-safe logging, and maintained on-call SLO ownership across contacts service endpoints.",
-        "Contributed to Mail Intelligence extraction pipeline (MTA → Jedi → CAAS → MEP → CMS) for Yahoo Planner; integrated ML classification (CAAS/Camino) with Lucy4j and Rule Service to extract structured event/task cards; owned deco lifecycle management, enforced CCPA/GAC compliance, reducing extraction error rate by 30% across million+ daily emails."
+        "Architected and led the AWS migration of GRC applications onto EKS and EC2 within a custom VPC subnets, security groups, IAM roles), deploying containerized microservices with multi-container pods (Envoy TLS proxy, Athenz SIA, CloudWatch log-router), S3-backed artifact storage, and Screwdriver CI/CD pipelines; secured end-to-end communication via X.509 certificate authentication and API Gateway-managed service endpoints, improved system reliability by 40% and cut infrastructure costs by 25%.",
+        "Built and scaled the Access Management Framework (AMF), a distributed workflow engine orchestrating automated approval pipelines across Okta, Athenz, ServiceNow, and JIRA for 20,000+ user groups; modeled provisioning as event-driven state machines with idempotent retries and audit trails, cutting provisioning latency 70% and eliminating manual review cycles entirely.",
       ]
     },
     {
